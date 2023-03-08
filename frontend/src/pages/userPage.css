@@ -1,0 +1,72 @@
+.userSection {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  color: rgb(150, 94, 202);
+  text-shadow: 0.4px 0.4px rgb(30, 128, 64);
+  gap: 8px;
+ 
+}
+
+.fotoUser {
+  border: solid 5px rgb(150, 94, 202);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0.5px 0.5px 0.5px 0.5px rgb(30, 128, 64);
+  margin: 40px 0 40px 40px;
+}
+
+.imagenUserPage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.buttonCamare {
+  top: 140px;
+  position: absolute;
+  margin-left: 105px;
+}
+
+
+
+.buttonCamara {
+  border-radius: 50px;
+  border: 0;
+  color: white;
+  background: rgb(150, 94, 202);
+  padding: 1px;
+}   
+
+.userTitle {
+  text-shadow: 0.5px 0.5px rgb(30, 128, 64);
+}
+
+.buttonUserPage {
+  background: rgb(150, 94, 202);
+  color: white;
+  border-radius: 5px;
+  padding: 0.2rem 2rem;
+  border: 0;
+  font-weight: bold;
+  box-shadow: 0.5px 0.5px 0.5px 0.3px rgb(32, 64, 43);
+  text-shadow: 0.1px 0.1px black;
+  margin-top: 5px;
+}
+
+.buttonUserPage:hover {
+  background: rgb(141, 54, 222);
+}
+
+.buttonUserPage:active {
+  background: linear-gradient(to bottom, transparent, rgb(114, 44, 184));
+}
+
+/*está en el componente ListEnlace. Aparece en esta página si no nay enlaces.*/
+.pListEnlace {
+  margin-top: 20px;
+  font-weight: bold;
+  text-shadow: 0.4px 0.4px rgb(30, 128, 64);
+}

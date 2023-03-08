@@ -1,0 +1,32 @@
+  .userDataSection
+  {
+    margin: 40px;
+    color: rgb(150, 94, 202);
+  }
+  
+  .userDataTitle {
+    margin-bottom: 10px;
+    text-shadow: 0.5px 0.5px rgb(30, 128, 64);
+  }
+  
+  .userDataEmail {
+   margin-top: 10px;
+  }
+  
+  .userDataRegister {
+    margin-top: 10px;
+  }
+
+  .userDataBiography{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .volverUserData {
+    color: rgb(122, 45, 193);
+    margin-top: 10px;
+  }
+
+  .volverUserData:hover {
+    color: rgb(162, 116, 205);
+  }

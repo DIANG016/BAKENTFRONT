@@ -1,0 +1,134 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+html {
+  --primary: rgb(150, 94, 202);
+  --secundary: rgb(76, 224, 126);
+  --text-shadown:  rgb(30, 128, 64);
+  --box-shadown: rgb(32, 64, 43);
+}
+
+
+
+.error{
+  color:red;
+  margin-top: 10px;
+  text-align: center;
+  margin: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#root {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 3.5rem 1fr 2rem;
+
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  background-color:  var(--secundary);
+ 
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  background-color:  var(--primary);
+
+
+}
+
+
+/*Modo nocturno*/
+
+main.nigth {
+  background-color: #292730;
+  min-height: 100vh;
+}
+
+
+main.nigth .imputNewLink {
+  color: black;
+  background-color: rgb(61, 104, 75);
+}
+
+main.nigth .inputEdit {
+  color: black;
+  background-color: rgb(61, 104, 75);
+}
+
+main.nigth textarea {
+  color: black;
+  background-color: rgb(61, 104, 75);
+}
+
+main.nigth .inputLogin {
+  color: black;
+  background-color: rgb(61, 104, 75);
+}
+
+main.nigth input::placeholder {
+  color: rgba(189, 179, 199, 0.4);
+}
+
+main.nigth .inputRegister {
+  color: black;
+  background-color: rgb(61, 104, 75);
+  /*font-weight: bold;*/
+}
+
+main.nigth .inputEditPassword {
+  color: black;
+  background-color: rgb(61, 104, 75);
+}
+
+.modoNocturnoSun {
+  margin-top: 10px;
+  color: white;
+}
+
+.modoNocturnoMoon {
+  margin-top: 10px;
+  color: white;
+}
+
+/*Version ordenador*/
+
+@media (min-width: 500px) {
+  body {
+    grid-template-rows: 1rem 1fr 2rem;
+  }
+}
+
+@media (min-width: 600px) {
+  #root {
+    grid-template-rows: 2.5rem 1fr 2rem;
+  }
+
+
+
+}

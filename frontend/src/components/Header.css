@@ -1,0 +1,49 @@
+
+
+Header{
+    background-color: rgb(150, 94, 202);
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+
+  }
+
+
+ .titleHeader {
+    text-decoration: none;
+    color: white;
+    text-shadow:  0.5px 0.5px 0.5px black;
+    font-size:x-large;
+    
+  }
+
+ .header:hover {
+    color: rgb(231, 220, 242);
+  } 
+
+/*auth navegador register y login*/
+
+.ulAuth{
+  display: flex;
+}
+
+.liAuth {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 5px;
+  margin: 3px;
+  background-color: rgb(76, 224, 126);
+  border-radius: 3px;
+  box-shadow: 0.5px 0.5px 0.5px 0.5px black;
+  text-shadow:  0.2px 0.2px 0.5px white;
+} 
+
+.liAuth:hover {
+  background-color:rgb(145, 236, 172);
+}
+
+.liAuth:active {
+  background: linear-gradient(to bottom, transparent, rgb(145, 236, 172));
+}

@@ -1,0 +1,111 @@
+.tituloEditusuario {
+  margin-top: 40px;
+  text-align: center;
+  color: rgb(150, 94, 202);
+  text-shadow:  0.5px 0.5px rgb(30, 128, 64);
+}
+
+.formEditUser{
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+  justify-content: center;
+  padding-top: 10px;
+ 
+}
+
+
+.editFieldUser {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    border: solid 2px rgba(150, 94, 202);
+    border-radius: 5px;
+    color: rgba(150, 94, 202);
+    font-weight: bold;
+    box-shadow: 1px 1px 2px rgb(30, 128, 64);
+    gap: 5px;
+  }
+  .labelEditUser {
+    text-shadow: 0.5px 0.5px rgb(30, 128, 64);
+}
+
+.inputEdit{
+    height: 30px;
+    border: none;
+    border-bottom: 3px solid rgb(150, 94, 202);
+    background-color: rgb(140, 246, 163);
+    color: rgb(150, 94, 202);
+    outline-color:darkorchid;
+    padding: 5px;
+}
+
+.inputEdit:focus {
+    background: linear-gradient(to bottom, transparent, rgb(184, 245, 197));
+    border-bottom: 3px solid rgb(199, 157, 239);
+  }
+
+    
+.textareaEditUser {
+    border: none;
+    min-height: 60px;
+    border-bottom: 3px solid rgb(150, 94, 202);
+    background-color: rgb(140, 246, 163);
+    color: rgb(150, 94, 202);
+    outline-color:darkorchid;
+    resize: none;
+    padding: 5px;
+}
+
+.textareaEditUser:focus {
+    background: linear-gradient(to bottom, transparent, rgb(184, 245, 197));
+    border-bottom: 3px solid rgb(199, 157, 239);
+  }
+
+
+
+.divButtonEdit{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+
+.userButton {
+    background: rgb(150, 94, 202);
+    color: white;
+    border-radius: 5px;
+    padding: 0.2rem 2rem;
+    border: 0;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0.5px 0.5px 0.5px 0.3px  rgb(32, 64, 43);
+    text-shadow:  0.1px 0.1px black;
+}
+
+.userButton:hover {
+    background: rgb(141, 54, 222);
+  }
+  
+  .userButton:active {
+    background: linear-gradient(to bottom, transparent, rgb(114, 44, 184));
+  }
+
+
+.errorEdit{
+    color:red;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+@media (min-width: 600px) {
+   
+    .formEditUser {
+max-width: 600px;
+margin-left: auto;
+margin-right: auto;
+    }
+  }

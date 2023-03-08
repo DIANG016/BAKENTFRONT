@@ -1,0 +1,114 @@
+.tituloNewLink {
+  margin-top: 40px;
+  color: rgb(150, 94, 202);
+  text-align: center;
+  text-shadow: 0.5px 0.5px rgb(30, 128, 64);
+}
+
+.formContenedor {
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+  justify-content: center;
+
+
+
+}
+
+.formNewLink {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: solid 2px rgba(150, 94, 202);
+  border-radius: 5px;
+  color: rgba(150, 94, 202);
+  font-weight: bold;
+  box-shadow: 1px 1px 2px rgb(30, 128, 64);
+  gap: 5px;
+}
+
+.labelNewLink {
+  text-shadow: 0.5px 0.5px rgb(30, 128, 64);
+}
+
+
+
+.imputNewLink {
+  height: 30px;
+  border: none;
+  border-bottom: 3px solid rgb(150, 94, 202);
+  background-color: rgb(140, 246, 163);
+  color: rgb(150, 94, 202);
+  outline-color:darkorchid;
+  padding: 5px;
+}
+
+.imputNewLink:focus {
+  background: linear-gradient(to bottom, transparent, rgb(184, 245, 197));
+  border-bottom: 3px solid rgb(199, 157, 239);
+}
+
+.textareaNewLink {
+  border: none;
+  min-height: 60px;
+  border-bottom: 3px solid rgb(150, 94, 202);
+  background-color: rgb(140, 246, 163);
+  color: rgb(150, 94, 202);
+  outline-color:darkorchid;
+  resize: none;
+  padding: 5px;
+}
+.textareaNewLink:focus {
+  background: linear-gradient(to bottom, transparent, rgb(184, 245, 197));
+  border-bottom: 3px solid rgb(199, 157, 239);
+}
+
+
+
+
+.divButton {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.newLinkButton {
+  background: rgb(150, 94, 202);
+  color: white;
+  border-radius: 5px;
+  padding: 0.2rem 3rem;
+  border: 0;
+  font-weight: bold;
+  box-shadow: 0.5px 0.5px 0.5px 0.3px  rgb(32, 64, 43);
+  text-shadow:  0.1px 0.1px black;
+}
+
+.userEditButton {
+  background: rgb(150, 94, 202);
+  color: white;
+  border-radius: 5px;
+  padding: 0.2rem 3rem;
+  border: 0;
+  font-weight: bold;
+  box-shadow: 0.5px 0.5px 0.5px 0.3px  rgb(32, 64, 43);
+  text-shadow:  0.1px 0.1px black;
+}
+
+
+.newLinkButton:hover {
+  background: rgb(141, 54, 222);
+}
+
+.newLinkButton:active {
+  background: linear-gradient(to bottom, transparent, rgb(114, 44, 184));
+}
+
+
+@media (min-width: 600px) {
+   
+  .formContenedor{
+
+align-items: center;
+  }
+}

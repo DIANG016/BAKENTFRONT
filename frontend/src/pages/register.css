@@ -1,0 +1,66 @@
+.sectionRegister {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tituloRegistro {
+  margin-top: 5rem;
+  padding: 2rem;
+  color:  var(--primary);
+  font-size: 2.5rem;
+  text-shadow:  0.5px 0.5px 0.5px rgb(32, 64, 43);
+
+}
+.formRegistro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+}
+
+.inputRegister {
+  border: none;
+  border-bottom: 3px solid rgb(150, 94, 202); 
+  background-color: rgb(140, 246, 163);
+  color: rgb(150, 94, 202);
+  padding: 5px;
+  outline-color:darkorchid;
+  width: 200px;
+}
+
+.inputRegister:focus {
+background: linear-gradient(to bottom, transparent, rgb(184, 245, 197)); 
+border-bottom: 3px solid rgb(199, 157, 239); 
+}
+
+input::placeholder {
+  color: rgb(150, 94, 202, 0.4);
+}
+
+.registerDiv {
+  margin-top: 30px;
+  margin-bottom: 20px;
+ 
+}
+ .registerButton {
+  background: rgb(150, 94, 202);
+  color: white;
+  border-radius: 5px;
+  padding: 0.2rem 3rem;
+  border: none ;
+  font-weight: bold;
+  box-shadow: 0.5px 0.5px 0.5px 0.3px rgb(32, 64, 43);
+  text-shadow:  0.5px 0.5px 0.5px black;
+}
+
+.registerButton:hover {
+  background: rgb(141, 54, 222);
+}
+
+.registerButton:active {
+  background: linear-gradient(to bottom, transparent, rgb(114, 44, 184));
+
+}
+

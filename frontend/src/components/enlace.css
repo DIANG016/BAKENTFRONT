@@ -1,0 +1,141 @@
+.link {
+  border: 2px solid rgb(150, 94, 202);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  align-items: center;
+  box-shadow: 1px 1px 2px rgb(30, 128, 64);
+  max-width: 600px;
+   white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+
+.tituloEnlace {
+  margin-bottom: 5px;
+  text-shadow:  0.5px 0.5px rgb(30, 128, 64);
+}
+
+.tituloLink {
+  text-decoration: none;
+  color: rgb(150, 94, 202);
+}
+
+.tituloLink:hover {
+  color: rgb(189, 168, 208);
+} 
+
+.enlaceLink {
+  margin-bottom: 10px;
+  text-shadow:  0.5px 0.5px rgb(30, 128, 64);
+
+}
+
+.enlaceNewLink {
+  color: rgb(150, 94, 202);
+}
+
+.enlaceNewLink:hover {
+  color: rgb(189, 168, 208);
+}
+
+.imgNewlinkCon {
+width: 87%;
+display: flex;
+
+}
+
+.imgNewlink {
+border-radius: 5px;
+width: 100%;
+  height: auto;
+  display: inline;
+  margin: 0 auto;
+  padding: 0;
+  
+}
+
+
+.sectionEnlace {
+  margin-top: 10px;
+  border: 2px solid rgb(150, 94, 202);
+  padding: 5px;
+  width: 87%;
+  border-radius: 5px;
+  text-align: center;
+  color:rgb(150, 94, 202);
+  box-shadow: 1px 1px 2px rgb(30, 128, 64);
+}
+
+.descripcionNewLink {
+    margin-top: 10px;
+    text-shadow:  0.1px 0.1px rgb(30, 128, 64);
+}
+
+
+.pDescripcionNewLink {
+    margin-top: 5px;
+    text-shadow:  0.1px 0.1px rgb(30, 128, 64);
+   
+}
+
+.linkNewLink {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-shadow:  0.1px 0.1px rgb(30, 128, 64);
+}
+
+.linkNombreUser {
+  text-decoration: none;
+  color:rgb(150, 94, 202);
+  font-weight: bold;
+}
+
+.linkNombreUser:hover {
+  color: rgb(189, 168, 208);
+}
+
+
+.votosNewLink {
+    margin: 5px 0;
+    font-weight: bold;
+    text-shadow:  0.1px 0.1px rgb(30, 128, 64);
+
+}
+ 
+ .buttonEnlace {
+  background: rgb(150, 94, 202);
+  color: white;
+  border-radius: 5px;
+  padding: 0.2rem 3rem;
+  border: 0;
+  font-weight: bold;
+  margin-top: 20px;
+  box-shadow: 0.5px 0.5px 0.5px 0.3px  rgb(32, 64, 43);
+  text-shadow:  0.1px 0.1px black;
+  }
+ 
+  .buttonEnlace:hover {
+   background: rgb(141, 54, 222);
+ }
+ 
+ .buttonEnlace:active {
+   background: linear-gradient(to bottom, transparent, rgb(114, 44, 184));
+ }
+
+
+ @media (min-width: 600px) {
+ .link {
+  margin-left: auto;
+    margin-right: auto;
+}
+
+
+  .imgNewlink
+  {
+    width: 60%;
+    
+  } 
+  
+ }

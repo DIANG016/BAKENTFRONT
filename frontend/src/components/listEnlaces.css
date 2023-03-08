@@ -1,0 +1,27 @@
+
+  .link-list {
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+ 
+  }
+
+  .link-list > li {
+    list-style: none;
+  }
+  .pListEnlace {
+    margin: 40px;
+    color:rgb(150, 94, 202);
+  }
+
+  @media (min-width: 600px) {
+    .link-list {
+    display: row;
+  
+   }
+   
+   
+    
+     
+    }

@@ -1,0 +1,40 @@
+
+.auth{
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+  }
+  
+ 
+  .linkLogout {
+   text-decoration: none;
+  }
+
+  .imageEditFigure {
+    display: flex;
+   
+  }
+
+  .imageEdit {
+    
+    border-radius: 50%;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+   
+  }
+
+  .contAuth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logout {
+    margin-top: 5px;
+    color: white;
+  }
+
+.ulAuth li {
+  list-style: none;
+}

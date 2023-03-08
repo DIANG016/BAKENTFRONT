@@ -1,0 +1,61 @@
+.tituloEditImagen {
+    margin-top: 40px;
+    text-align: center;
+    color: var(--primary);
+    text-shadow:  0.5px 0.5px var(--text-shadown);
+}
+
+.editImagen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ margin: 40px;
+}
+
+.editImagenFiel {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    color: var(--primary);
+    font-weight: bold;
+    border: 2px solid var(--primary);
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px var(--text-shadown);
+    gap:10px
+}
+
+.buttonConEditImagen {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.buttonEditImagen {
+    background:  var(--primary);
+    color: white;
+    border-radius: 5px;
+    padding: 0.2rem 2rem;
+    border: 0;
+    font-weight: bold;
+    box-shadow: 0.5px 0.5px 0.5px 0.3px  var(--box-shadown);
+    text-shadow:  0.1px 0.1px black;
+}
+
+.buttonEditImagen:hover {
+    background: rgb(141, 54, 222);
+  }
+  
+  .buttonEditImagen:active {
+    background: linear-gradient(to bottom, transparent, rgb(114, 44, 184));
+  }
+  
+
+    @media (min-width: 600px) {
+   
+      .editImagen{
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+      }
+    }

@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Alex+Brush&family=Montserrat:ital,wght@1,100&family=Open+Sans:wght@300&family=Press+Start+2P&display=swap");
+
+/*Home sin logearse*/
+
+.contenedorHome {
+  color:var(--primary);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.homeTitulo {
+  color: var(--primary);
+  font-family: "Alex Brush", cursive;
+  font-size: 4rem;
+  margin-top: 30px;
+  text-shadow: 0.5px 0.5px var(--text-shadown);
+  text-align: center;
+}
+
+.figureHome {
+  display: flex;
+  justify-content: center;
+}
+
+img.move,
+img.move1,
+img.move2 {
+  width: 250px;
+  position: absolute;
+  margin-top: -20px;
+}
+
+img.move3 {
+  width: 250px;
+  position: relative;
+  margin-top: -20px;
+}
+
+@keyframes movimiento {
+  50% {
+    transform: translatex(5rem);
+  }
+  75% {
+    transform: translatex(10rem);
+  }
+  100% {
+    transform: translatex(15rem);
+
+    opacity: 0;
+  }
+}
+
+.move1 {
+  animation: movimiento 1s;
+  animation-timing-function: ease-in;
+  animation-direction: alternate;
+  animation-fill-mode: both;
+  animation-delay: 9s;
+}
+
+.move2 {
+  animation: movimiento 1s;
+  animation-timing-function: ease-in;
+  animation-direction: alternate;
+  animation-fill-mode: both;
+  animation-delay: 6s;
+}
+
+.move3 {
+  animation: movimiento 1s;
+  animation-timing-function: ease-in;
+  animation-direction: alternate;
+  animation-fill-mode: both;
+  animation-delay: 3s;
+}
+
+.homeSubTitulo1 {
+  margin-bottom: 10px;
+  font-size: 1.6rem;
+  text-shadow: 0.5px 0.5px var(--text-shadown);
+}
+
+.homep {
+  color: rgb(156, 108, 201);
+  text-shadow: 0.3px 0.3px var(--text-shadown);
+}
+
+.homep1 {
+  margin: 5px;
+  color: rgb(160, 120, 197);
+  text-shadow: 0.3px 0.3px var(--text-shadown);
+}
+.homep2 {
+  color: rgb(171, 135, 206);
+  text-shadow: 0.3px 0.3px var(--text-shadown);
+}
+.homep3 {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  color: rgb(177, 145, 208);
+  text-shadow: 0.3px 0.3px var(--text-shadown);
+}
+
+/* estilos logeado*/
+/*Título cuando está logeado*/
+
+.tituloHomeLogeado {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 2rem;
+  color: rgb(150, 94, 202);
+  text-shadow: 0.3px 0.3px rgb(30, 128, 64);
+}
+
+/*barra subir enlace*/
+
+.barraSubeLink {
+  display: flex;
+  margin-top: 15px;
+  margin-left: 40px;
+  align-items: center;
+}
+
+.fotoHome {
+  border: solid 3px rgb(150, 94, 202);
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  margin-top: 10px;
+  overflow: hidden;
+  margin-right: 20px;
+}
+
+.imagenHomeUser {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.linkSubeLink {
+  border: 1px solid rgb(150, 94, 202);
+  border-radius: 50px;
+  text-decoration: none;
+  color: rgb(180, 166, 193);
+  width: 240px;
+  padding: 5px;
+  box-shadow: 0.5px 0.5px 1px rgb(30, 128, 64);
+}
+
+.avatarHome {
+  box-shadow: 0.5px 0.5px 2px 1px rgb(30, 128, 64);
+}
+
+@media (min-width: 600px) {
+  .homeTitulo {
+    font-size: 4rem;
+    margin-top: 20px;
+  }
+
+  .contenedorHome {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  img.move,
+  img.move1,
+  img.move2 {
+    width: 220px;
+    position: absolute;
+  }
+
+  img.move3 {
+    width: 220px;
+    position: relative;
+  }
+
+  .contenedorHomeLink {
+    margin-right: 40px;
+  }
+  .homeSubTitulo1 {
+    font-size: xx-large;
+  }
+  .letraHomeLink {
+    font-size: x-large;
+  }
+
+/*home logeado*/
+.tituloHomeLogeado {
+  margin-top: 20px;
+}
+
+}
